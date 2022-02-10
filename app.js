@@ -13,7 +13,6 @@ const server = http.createServer((req, res) => {
     res.write('</html>')
     return res.end()
     }
-
     
     if(url === '/create-user' && method === 'POST'){
         const body = []
